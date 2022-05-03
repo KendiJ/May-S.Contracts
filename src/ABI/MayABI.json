@@ -1,0 +1,119 @@
+[
+    {
+        "type": "function",
+        "name": "_age",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "_description",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "_name",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getAge",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getDescription",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getName",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "setAge",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "newAge"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "setDescription",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "string",
+                "name": "newDescr"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "setName",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "string",
+                "name": "newName"
+            }
+        ],
+        "outputs": []
+    }
+]
